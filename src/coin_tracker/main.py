@@ -207,7 +207,7 @@ class CoinPortfolioTable(App):
         elif key == "r":
             self.action_sort_by_price()
         elif key == "a":
-            self.action_sort_by_amount()  # Обратите внимание на отступ
+            self.action_sort_by_amount()  
         elif key == "v":
             self.action_sort_by_value()
         elif key == "i":
