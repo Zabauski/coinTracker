@@ -1,0 +1,75 @@
+ 
+
+#coin_table {
+    border: solid #3c3836;
+    background: #282828;
+    color: #ebdbb2;
+    text-align: center;
+    padding: 1 1;
+}
+
+#total_table {
+    border: solid #3c3836;
+    background: #282828;
+    color: #ebdbb2;
+    text-align: center;
+    padding: 1 1;
+}
+
+
+
+
+
+
+
+DataTable > .datatable--header {
+    background: #D65D0E; 
+    color: #ebdbb2;     
+}
+
+
+DataTable > .datatable--even-row {
+    background: #3c3836;
+}
+
+
+DataTable > .datatable--odd-row {
+    background: #574833; 
+}
+
+
+DataTable > .datatable--cell {
+    text-align: center; 
+    padding: 1 1;       
+}
+
+DataTable {
+    width: 90; 
+}
+
+
+
+
+
+
+
+#coin_table DataTableRow DataTableCell:last-of-type,
+#total_table DataTableRow DataTableCell:last-of-type {
+    border-right: none;
+}
+
+
+.accent {
+    color: #d79921;
+}
+
+.positive {
+    color: #98971a;
+}
+
+.negative {
+    color: #cc241d;
+}
+
+
+
